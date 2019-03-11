@@ -438,9 +438,9 @@
               <FilePath>../Src/stm32f4xx_hal_timebase_tim.c</FilePath>
             </File>
             <File>
-              <FileName>ivc-antares.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\Src\ivc-antares.cpp</FilePath>
+              <FileName>sim900a.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Src\sim900a.c</FilePath>
             </File>
           </Files>
         </Group>

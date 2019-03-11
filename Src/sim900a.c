@@ -46,6 +46,23 @@ void Clr_Buff()
 }
 
 /* Private function prototypes -----------------------------------------------*/
+void gsmStatus(void)
+{
+	uint8_t try1=0;
+	do
+	{
+		printf("AT+CSQ\r");
+		HAL_Delay(5000);
+		Clr_Buff();
+		printf("AT+CREG?\r");
+//		sendCmd("AT+CGATT?");	//NB-IOT
+		HAL_Delay(1000);
+		
+		try1++;
+	}
+	while(strstr((char *)rx_buffer,"1") == NULL && try1 <= 50);
+
+}
 /*Inisialisasi SIM900A*/
 int SIM900A_Init()
 {
@@ -57,7 +74,7 @@ int SIM900A_Init()
 	{
 		ok = 1;
 		Clr_Buff();
-		printf("AT+SAPBR=3,1,\"APN\",\"internet\"\r");
+		printf("AT+SAPBR=3,1,\"APN\",\"3data\"\r");
 		HAL_Delay(600);
 //		pstr = strstr((char *)rx_buffer,"OK");
 		if(strstr((char *)rx_buffer,"OK") != NULL)

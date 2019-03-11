@@ -402,12 +402,12 @@
     <File>
       <GroupNumber>2</GroupNumber>
       <FileNumber>11</FileNumber>
-      <FileType>8</FileType>
-      <tvExp>0</tvExp>
+      <FileType>1</FileType>
+      <tvExp>1</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\ivc-antares.cpp</PathWithFileName>
-      <FilenameWithoutPath>ivc-antares.cpp</FilenameWithoutPath>
+      <PathWithFileName>..\Src\sim900a.c</PathWithFileName>
+      <FilenameWithoutPath>sim900a.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>

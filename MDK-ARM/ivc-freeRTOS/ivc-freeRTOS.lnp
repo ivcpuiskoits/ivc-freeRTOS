@@ -9,7 +9,7 @@
 "ivc-freertos\stm32f4xx_it.o"
 "ivc-freertos\stm32f4xx_hal_msp.o"
 "ivc-freertos\stm32f4xx_hal_timebase_tim.o"
-"ivc-freertos\ivc-antares.o"
+"ivc-freertos\sim900a.o"
 "ivc-freertos\stm32f4xx_hal_can.o"
 "ivc-freertos\stm32f4xx_hal_tim.o"
 "ivc-freertos\stm32f4xx_hal_tim_ex.o"

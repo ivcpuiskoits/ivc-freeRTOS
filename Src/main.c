@@ -175,6 +175,8 @@ int main(void)
 	CAN_Filter();
 	HAL_CAN_Start(&hcan1);
 	
+	HAL_Delay(6000);
+	
 //	HAL_UART_Receive_IT(&huart1,&rx_data2,1);
 	HAL_UART_Receive_IT(&huart3,&rx_data,1);
 	

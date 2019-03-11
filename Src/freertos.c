@@ -338,6 +338,7 @@ void StartGsmTask(void const * argument)
 {
   /* USER CODE BEGIN StartGsmTask */
   /* Infinite loop */
+	gsmStatus();
 	SIM900A_Init();
 
   for(;;)
