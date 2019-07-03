@@ -274,8 +274,8 @@ void StartAndroidTask(void const * argument)
 //				         state,rpm >> 8, rpm & 0xFF, motorCurrent >> 8, motorCurrent & 0xFF, controllerTemperature >> 8, controllerTemperature & 0xFF,
 //									motorTemperature >> 8, motorTemperature & 0xFF, errorCode, d_battCurrentController >> 8, d_battCurrentController & 0xFF, 
 //									totalVoltController >> 8, totalVoltController & 0xFF);
-			rpm++;
-			motorCurrent++;
+//			rpm++;
+//			motorCurrent++;
 			state = 2;
 		}
 		else if (state == 2) // Miscellaneous
